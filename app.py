@@ -13,9 +13,9 @@ import os
 #Flaskを準備
 app = Flask(__name__)
 #環境変数からLINE Access Tokenを設定
-LINE_CHANNEL_ACCESS_TOKEN = os.environ["LINE_CHANNEL_ACCESS_TOKEN"]
+LINE_CHANNEL_ACCESS_TOKEN = os.environ["1657669164"]
 #環境変数からLINE Channel Secretを設定
-LINE_CHANNEL_SECRET = os.environ["LINE_CHANNEL_SECRET"]
+LINE_CHANNEL_SECRET = os.environ["6373d78a3d704292f81c3feb2a805b20"]
 #LineBotApiのインスタンスを生成
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 #WebhookHandlerのインスタンスを生成
