@@ -11,7 +11,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = "1657669164"
+ACCESS_TOKEN = "rnbIFcaBQe8QXs/jhB3w3iZlwmsHkVRm1q0QUdOkaAYpdLkP+JUbONAmNotVrhEmH1a5uHYz2ac2P6X3naStYLBPX35RQichWwlb33z/Pbb7/lfga7/2edU8H6hyNO7IbxRP6gV3mCgoSeOeoaoTIgdB04t89/1O/w1cDnyilFU="
 SECRET = "6373d78a3d704292f81c3feb2a805b20"
 
 line_bot_api = LineBotApi(ACCESS_TOKEN)
