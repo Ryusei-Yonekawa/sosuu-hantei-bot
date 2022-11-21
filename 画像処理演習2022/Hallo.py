@@ -1,0 +1,2 @@
+a = "Hollo"
+print(a)

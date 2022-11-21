@@ -1,0 +1,9 @@
+
+newdata2 <- newdata[1:120*250,]
+pc <- princomp(scale(newdata2[,1:10]))
+summary(pc)
+biplot(pc)
+
+dist <- dist(scale(newdata2[,1:10]))
+hc <- hclust(dist, "ward.D")
+plot(hc)
